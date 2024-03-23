@@ -1,0 +1,54 @@
+@font-face {
+    font-family: Balfron;
+    src: url(assets/fonts/II\ Balfron.otf);
+}
+
+body {
+    background-color: #ededeb;
+    color: #353136;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0;
+    font-family: Balfron;
+}
+
+.container {
+    text-align: center;
+}
+
+.title-container {
+    text-align: center;
+}
+
+.main-heading {
+    font-size: 2000%;
+}
+
+h3 {
+    font-size: 32px;
+}
+
+h3 a {
+    color: #26364c;
+    text-decoration: none; 
+    transition: color 0.3s ease;
+}
+
+h3 a:hover {
+    color: #50637d; 
+    text-decoration: none;
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #26364c;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+}
